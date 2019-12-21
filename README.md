@@ -62,7 +62,7 @@ The evaluation code could be found at this [code link](https://github.com/BASE-L
 
 # Methods
 We reproduced 6 code search methods. They can be classified into two mainstreams: IR (Information Retrieval)-
-based methods and DL (Deep Learning)-based ones. The project reproduced IR-based methods could be seen in [there](https://github.com/BASE-LAB-SJTU/CSES_IR),  and the project reproduced DL-based methods could be seen in [there](https://github.com/BASE-LAB-SJTU/CSES_ML).
+based methods and DL (Deep Learning)-based ones. The project reproduced IR-based methods could be seen in [there](https://github.com/BASE-LAB-SJTU/CSES_IR),  and the project reproduced DL-based methods could be seen in [there](https://github.com/BASE-LAB-SJTU/CSES_DL).
 
 # Evaluation
 We performed experiments on Cosbench using the above method, and the details are published in the paper"Are the Code Snippets What We Are Searching for? A Benchmark and an Empirical Study on Code Search with Natural-Language Queries". 
