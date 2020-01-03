@@ -67,5 +67,5 @@ based methods and DL (Deep Learning)-based ones. The project reproduced IR-based
 # Evaluation
 We performed experiments on Cosbench using the above method, and the details are published in the paper"Are the Code Snippets What We Are Searching for? A Benchmark and an Empirical Study on Code Search with Natural-Language Queries". 
 
-We provide [experimental logs](https://drive.google.com/open?id=1dNEU2RNUujKPKzL-g9AkvQTzqJZWEWJW) and [experimental raw data](https://drive.google.com/open?id=1Gi-JQauyu-pTSrks7fAhA-XJV3DEcXBZ).
+We provide [experimental raw data](https://drive.google.com/open?id=1Gi-JQauyu-pTSrks7fAhA-XJV3DEcXBZ) of our experiments.
 
