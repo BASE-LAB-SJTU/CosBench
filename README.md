@@ -69,3 +69,10 @@ We performed experiments on Cosbench using the above method, and the details are
 
 We provide [experimental raw data](https://drive.google.com/open?id=1Gi-JQauyu-pTSrks7fAhA-XJV3DEcXBZ) of our experiments.
 
+If you want to use this dataset to judge the new code search method, you may need to add more correct answers to the QAset before evaluation. Because our answer set is from the top 20 answers given by the 6 code search methods we reproduced, and it does not guarantee completeness.
+
+# Other Code Search Dataset
+Code Search Dataset from FaceBook: H. Li, S. Kim, and S. Chandra, “Neural code search evaluation dataset,” ArXiv, vol. abs/1908.09804, 2019, https://github.com/facebookresearch/Neural-Code-Search-Evaluation-Dataset.
+
+Code Search Dataset from Github & Microsoft: H. Husain, H.-H. Wu, T. Gazit, M. Allamanis, and M. Brockschmidt, “Codesearchnet challenge: Evaluating the state of semantic code search,” ArXiv, vol. abs/1909.09436, 2019, https://github.com/github/codesearchnet
+
