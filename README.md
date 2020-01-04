@@ -5,13 +5,13 @@ Cosbench = Codebase + QAset + Metrics
 We provided two versions of our Codebase.
 
 ## origin version
-The Codebase could be downloaded from [google drive](https://drive.google.com/file/d/1ADAP8-04o_EA-HOvQPwucudtufexLan5/view?usp=sharing)
+The Codebase could be downloaded from [google drive](https://drive.google.com/file/d/1ADAP8-04o_EA-HOvQPwucudtufexLan5/view?usp=sharing).
 
 This .tar.gz package contains 4,199,769 java snippets which are not processed.
 It is in TXT format, one code snippet per line.
 
 ## processed version
-The Codebase could be downloaded from [google drive](https://drive.google.com/file/d/1I5gimDYK7WaiGbSGnBO9jwT3txR1dHlY/view?usp=sharing)
+The Codebase could be downloaded from [google drive](https://drive.google.com/file/d/1I5gimDYK7WaiGbSGnBO9jwT3txR1dHlY/view?usp=sharing).
 
 This .tar.gz package contains 4,199,769 java snippets which are processed.
 It is in Json format. Each code snippet corresponds to：
@@ -53,7 +53,7 @@ Each QA item corresponds to：
 
 where "id" is the query ID, "query" is the query content, "answerList" is a array which contains the id of snippet answer. 
 
-In addition, we also provide a supplemental QAset, which contains 62 queries and corresponding answers. The QAset could be downloaded from [google drive](https://drive.google.com/file/d/1gcVVoHnH0bYMzUf4HDJ9Rl3KeRcaffMy/view?usp=sharing)
+In addition, we also provide a supplemental QAset, which contains 62 queries and corresponding answers. The QAset could be downloaded from [google drive](https://drive.google.com/file/d/1gcVVoHnH0bYMzUf4HDJ9Rl3KeRcaffMy/view?usp=sharing).
 
 # Metrics
 CosBench takes four metrics: Precision@k, MAP@k, MRR@k, and Frank.
@@ -65,14 +65,10 @@ We reproduced 6 code search methods. They can be classified into two mainstreams
 based methods and DL (Deep Learning)-based ones. The project reproduced IR-based methods could be seen in [there](https://github.com/BASE-LAB-SJTU/CSES_IR),  and the project reproduced DL-based methods could be seen in [there](https://github.com/BASE-LAB-SJTU/CSES_DL).
 
 # Evaluation
-We performed experiments on Cosbench using the above method, and the details are published in the paper"Are the Code Snippets What We Are Searching for? A Benchmark and an Empirical Study on Code Search with Natural-Language Queries". 
-
-We provide [experimental raw data](https://drive.google.com/open?id=1Gi-JQauyu-pTSrks7fAhA-XJV3DEcXBZ) of our experiments.
-
-If you want to use this dataset to judge the new code search method, you may need to add more correct answers to the QAset before evaluation. Because our answer set is from the top 20 answers given by the 6 code search methods we reproduced, and it does not guarantee completeness.
+Information about the experiment is [here](https://github.com/BASE-LAB-SJTU/CosBench/wiki/Experiments).
 
 # Other Code Search Dataset
 Code Search Dataset from FaceBook: H. Li, S. Kim, and S. Chandra, “Neural code search evaluation dataset,” ArXiv, vol. abs/1908.09804, 2019, https://github.com/facebookresearch/Neural-Code-Search-Evaluation-Dataset.
 
-Code Search Dataset from Github & Microsoft: H. Husain, H.-H. Wu, T. Gazit, M. Allamanis, and M. Brockschmidt, “Codesearchnet challenge: Evaluating the state of semantic code search,” ArXiv, vol. abs/1909.09436, 2019, https://github.com/github/codesearchnet
+Code Search Dataset from Github & Microsoft: H. Husain, H.-H. Wu, T. Gazit, M. Allamanis, and M. Brockschmidt, “Codesearchnet challenge: Evaluating the state of semantic code search,” ArXiv, vol. abs/1909.09436, 2019, https://github.com/github/codesearchnet.
 
