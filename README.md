@@ -32,7 +32,7 @@ It is in Json format. Each code snippet corresponds to：
 where `methbody` represents the field that stores the body of source code snippet (using 'method' as minimum storage unit), `apiseq` contains the API sequence that appear in the code, `methname` refers to the method name of the source code, `id` indicates the globally unique id(UUID) for each code snippet.
 
 # QAset
-The QAset could be downloaded from [google drive](https://drive.google.com/open?id=1mRbYWq-JjPMyh4-x-GSuJtfVgXk5ftRo)
+The current QAset could be downloaded from [google drive](https://drive.google.com/open?id=15umo6V56Rm-RuxQo1ZDxPtgg9FtSKPbp)
 
 This Json file contains 52 queries and corresponding answers.
 Each QA item corresponds to：
@@ -53,7 +53,7 @@ Each QA item corresponds to：
 
 where "id" is the query ID, "query" is the query content, "answerList" is a array which contains the id of snippet answer. 
 
-In addition, we also provide a supplemental QAset, which contains 62 queries and corresponding answers. The QAset could be downloaded from [google drive](https://drive.google.com/file/d/1gcVVoHnH0bYMzUf4HDJ9Rl3KeRcaffMy/view?usp=sharing).
+Since the QAset is incomplete, We will update the QAset when more potential answers found.
 
 # Metrics
 CosBench takes four metrics: Precision@k, MAP@k, MRR@k, and Frank.
